@@ -158,3 +158,8 @@ body {
     cursor: pointer;
     box-shadow: 0 0 30px #ee9ca7;
   }
+ .label{
+    color: #46e6ff;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }

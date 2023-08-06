@@ -49,8 +49,8 @@ const AreaChart = () => {
             onKeyPress={handleInputKeyPress}
           />
 
-          <div className='btn'><button onClick={handleSearchClick}>Search</button>
-</div>
+          <div className='btn'><button onClick={handleSearchClick}>Search</button></div>
+          <div className="label"> <label htmlFor=""> {data[0]?.country}</label></div>
           {data.length > 0 && <img src={data[0]?.countryInfo?.flag} alt="Country Flag" />}
           <div className='area'>{data.length > 0 && <Area datax={data[0]} />}</div>
         </div>

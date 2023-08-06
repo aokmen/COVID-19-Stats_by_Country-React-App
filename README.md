@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# COVID-19 Data Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h3>Visit: https://covid19-stats-react-app.netlify.app/</h3>
+<img alt="alt_text" src="./country.gif"/>
 
-In the project directory, you can run:
+## Description:
 
-### `yarn start`
+This is a React-based web application that visualizes COVID-19 data for different countries using charts and graphs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The COVID-19 Data Visualization application provides users with the ability to view COVID-19 statistics for different countries. The application fetches data from the "Corona LMAO API" to display the latest information about cases, deaths, active cases, recoveries, and other related metrics. Users can search for specific countries and view the corresponding data on various types of charts.
 
-### `yarn test`
+## Functionality and Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application is divided into three main chart components:
 
-### `yarn build`
+### 1. Area Chart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Area Chart component displays the number of deaths and active cases for the selected country using a donut chart. Users can enter a country name in the input field and either press Enter or click the "Search" button to update the chart with the data for the specified country.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Bar Chart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Bar Chart component shows the following COVID-19 metrics for the selected country using horizontal bars:
 
-### `yarn eject`
+- One Case Per People
+- Active Per One Million
+- Deaths Per One Million
+- Tests Per One Million
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The bar chart provides a visual representation of these metrics to help users compare different aspects of the COVID-19 situation in the selected country.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Line Chart
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Line Chart component presents data on the following metrics for the selected country:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Cases Per One Million
+- Recovered Per One Million
+- Deaths Per One Million
 
-## Learn More
+These metrics are plotted on a vertical bar chart, allowing users to observe trends and changes in the selected country's COVID-19 statistics.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Styling
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application uses custom CSS styles to create a visually appealing and user-friendly interface. The background color and gradient provide a calming and attractive backdrop, while the charts and graphs are neatly arranged in a centered and responsive layout.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To use the application, follow these steps:
 
-### Analyzing the Bundle Size
+1. Enter the name of the country you want to view data for in the input field.
+2. Press Enter or click the "Search" button to fetch and display the data for the selected country.
+3. Observe the Area Chart, Bar Chart, and Line Chart to view different aspects of the COVID-19 data for the chosen country.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Please note that the data is fetched from an external API, and the accuracy and availability of the information depend on the API's data sources.
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The COVID-19 Data Visualization application uses the "Corona LMAO API" to retrieve COVID-19 data for different countries. The charts and graphs are created using the "React ApexCharts" library, which provides powerful and customizable chart components for React applications.
 
-### Advanced Configuration
+## Development and Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This application is an open-source project, and contributions from the community are welcome. If you find any issues or have suggestions for improvements, please feel free to create a pull request or open an issue on the project's GitHub repository.
 
-### Deployment
+Developed by [A-okmen](https://github.com/aokmen)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

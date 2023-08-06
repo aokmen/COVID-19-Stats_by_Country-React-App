@@ -8,7 +8,7 @@
 
 This is a React-based web application that visualizes COVID-19 data for different countries using charts and graphs.
 
-## Overview
+## Overview:
 
 The COVID-19 Data Visualization application provides users with the ability to view COVID-19 statistics for different countries. The application fetches data from the "Corona LMAO API" to display the latest information about cases, deaths, active cases, recoveries, and other related metrics. Users can search for specific countries and view the corresponding data on various types of charts.
 

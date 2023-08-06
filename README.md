@@ -2,7 +2,7 @@
 
 
 <h3>Visit: https://covid19-stats-react-app.netlify.app/</h3>
-<img alt="alt_text" src="./country.gif"/>
+<img alt="alt_text" src="./country2.gif"/>
 
 ## Description:
 

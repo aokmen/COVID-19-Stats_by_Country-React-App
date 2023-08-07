@@ -16,7 +16,7 @@ The COVID-19 Data Visualization application provides users with the ability to v
 
 The application is divided into three main chart components:
 
-### 1. Area Chart
+### 1. Area Chart 
 
 The Area Chart component displays the number of deaths and active cases for the selected country using a donut chart. Users can enter a country name in the input field and either press Enter or click the "Search" button to update the chart with the data for the specified country.
 

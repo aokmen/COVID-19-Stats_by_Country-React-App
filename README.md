@@ -45,7 +45,7 @@ These metrics are plotted on a vertical bar chart, allowing users to observe tre
 
 The application uses custom CSS styles to create a visually appealing and user-friendly interface. The background color and gradient provide a calming and attractive backdrop, while the charts and graphs are neatly arranged in a centered and responsive layout.
 
-## Usage
+## Usage 
 
 To use the application, follow these steps:
 

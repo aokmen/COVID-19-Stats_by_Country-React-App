@@ -31,7 +31,7 @@ The Bar Chart component shows the following COVID-19 metrics for the selected co
 
 The bar chart provides a visual representation of these metrics to help users compare different aspects of the COVID-19 situation in the selected country.
 
-### 3. Line Chart
+### 3. Line Chart 
 
 The Line Chart component presents data on the following metrics for the selected country:
 

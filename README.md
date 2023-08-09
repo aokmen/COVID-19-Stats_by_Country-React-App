@@ -55,7 +55,7 @@ To use the application, follow these steps:
 
 Please note that the data is fetched from an external API, and the accuracy and availability of the information depend on the API's data sources.
 
-## Credits
+## Credits 
 
 The COVID-19 Data Visualization application uses the "Corona LMAO API" to retrieve COVID-19 data for different countries. The charts and graphs are created using the "React ApexCharts" library, which provides powerful and customizable chart components for React applications.
 

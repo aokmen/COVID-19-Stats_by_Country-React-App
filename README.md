@@ -61,7 +61,7 @@ The COVID-19 Data Visualization application uses the "Corona LMAO API" to retrie
 
 ## Development and Contributions
 
-This application is an open-source project, and contributions from the community are welcome. If you find any issues or have suggestions for improvements, please feel free to create a pull request or open an issue on the project's GitHub repository.
+This application is an open-source project, and contributions from the community are welcome. If you find any issues or have suggestions for improvements, please feel free to create a pull request or open an issue on the project's GitHub repository. 
 
 Developed by [A-okmen](https://github.com/aokmen)
 

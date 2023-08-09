@@ -41,7 +41,7 @@ The Line Chart component presents data on the following metrics for the selected
 
 These metrics are plotted on a vertical bar chart, allowing users to observe trends and changes in the selected country's COVID-19 statistics.
 
-## Styling
+## Styling 
 
 The application uses custom CSS styles to create a visually appealing and user-friendly interface. The background color and gradient provide a calming and attractive backdrop, while the charts and graphs are neatly arranged in a centered and responsive layout.
 

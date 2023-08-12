@@ -21,7 +21,7 @@ The application is divided into three main chart components:
 The Area Chart component displays the number of deaths and active cases for the selected country using a donut chart. Users can enter a country name in the input field and either press Enter or click the "Search" button to update the chart with the data for the specified country.
 
 ### 2. Bar Chart  
-
+ 
 The Bar Chart component shows the following COVID-19 metrics for the selected country using horizontal bars:
 
 - One Case Per People

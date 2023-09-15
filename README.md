@@ -4,7 +4,7 @@
 <h3>Visit: https://covid19-stats-react-app.netlify.app/</h3>
 <img alt="alt_text" src="./country2.gif"/>
 
-## Description: 
+## Description:  
 
 This is a React-based web application that visualizes COVID-19 data for different countries using charts and graphs.
 
